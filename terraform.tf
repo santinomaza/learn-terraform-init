@@ -13,12 +13,11 @@ terraform {
       version = "3.6.0"
     }
   }
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+  #Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "hashicorps_codecamp"
     workspaces {
       name = "learn-terraform-init"
     }
   }
-*/
 }
